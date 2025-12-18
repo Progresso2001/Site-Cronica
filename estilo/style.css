@@ -98,49 +98,49 @@ section.imagem > p{
     
 }
 section#img01{
-    max-width: 480px;
+    max-width: 1025px;
     min-width: 1025px;
     background-image: url('../imagens/estudante.jpg');
     background-position: right center;
     background-size: cover;
 }
 section#img02{
-    max-width: 480px;
+    max-width: 1025px;
     min-width: 1025px;
     background-image: url('../imagens/linguagens.jpg');
     background-position: right center;
     background-size: cover;
 }
 section#img03{
-    max-width: 480px;
+    max-width: 1025px;
     min-width: 1025px;
     background-image: url('../imagens/programar.jpg');
     background-position: right center;
     background-size: cover;
 }
 section#img04{
-    max-width: 480px;
+    max-width: 1025px;
     min-width: 1025px;
     background-image: url('../imagens/imagem002.jpg');
     background-position: right center;
     background-size: cover;
 }
 section#img05{
-    max-width: 480px;
+     max-width: 1025px;
     min-width: 1025px;
     background-image: url('../imagens/imagem001.jpg');
     background-position: right center;
     background-size: cover;
 }
 section#img06{
-    max-width: 480px;
+    max-width: 1025px;
     min-width: 1025px;
     background-image: url('../imagens/admirar.jpg');
     background-position: right center;
     background-size: cover;
 }
 section#img07{
-    max-width: 480px;
+    max-width: 1025px;
     min-width: 1025px;
     background-image: url('../imagens/focos2.jpg');
     background-position: right center;
