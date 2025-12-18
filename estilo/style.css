@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+
+/*
+fontes que vou usar
+Montserrat -header
+Roboto Serif - para paragrafos
+Poppins-Para titulos e subtitulos
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --font1: "Montserrat", cursive;
+    --font2: "Roboto", cursive;
+    --font3:"Poppins", cursive;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    min-height: 10vh;
+    background-color: darkgray;
+    font-family: var(--font3);
+
+}
+header{
+    background-color: rgba(0, 0, 0, 0.742);
+    color: white;
+    text-align: center;
+}
+header >h1{
+    padding: 5px;
+    font-variant: small-caps;
+    font-family: var(--font1);
+    font-size: 2.5vw;
+}
+header > p >a{
+    background-color: none;
+    color:#0066cc;
+    text-decoration: none;
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-family: var(--font1);
+}
+header > p >a:hover{
+    text-decoration: underline;
+    color: rgba(0, 0, 255, 0.726);
+}
+header > img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: auto;
+    margin: auto;
+}
+section{
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    font-family: var(--font3);
+    font-size: 1vw;
+}
+section > p{
+    padding: 2em;
+    font-size: 1.5;
+}
+section.imagem{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-attachment: fixed;
+}
+section.imagem > h2{
+    padding: 10px;
+    margin: 10px;
+    font-family: var(--font1);
+    text-align: center;
+    font-weight: 1vw;
+    font-variant: small-caps;
+}
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.514);
+    display: inline-block;
+    padding: 50px;
+    margin: 50px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 0px black;
+    
+}
+section#img01{
+    background-image: url('../imagens/estudante.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+section#img02{
+    background-image: url('../imagens/linguagens.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+section#img03{
+    background-image: url('../imagens/programar.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+section#img04{
+    background-image: url('../imagens/imagem002.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+section#img05{
+    background-image: url('../imagens/imagem001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+section#img06{
+    background-image: url('../imagens/admirar.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+section#img07{
+    background-image: url('../imagens/focos2.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+footer > p{
+    font-size: 30px;
+    font-family: var(--font1);
+    font-variant: small-caps;
+}
