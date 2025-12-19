@@ -26,7 +26,7 @@ Poppins-Para titulos e subtitulos
 
 
 html, body{
-    min-height: 10vh;
+    min-height: 100vh;
     background-color: darkgray;
     font-family: var(--font3);
 
@@ -37,10 +37,10 @@ header{
     text-align: center;
 }
 header >h1{
-    padding: 5px;
+    padding: 50px;
     font-variant: small-caps;
     font-family: var(--font1);
-    font-size: 2.5vw;
+    font-size: 3.5vw;
 }
 header > p >a{
     background-color: none;
@@ -49,6 +49,9 @@ header > p >a{
     font-weight: bolder;
     font-variant: small-caps;
     font-family: var(--font1);
+    padding-bottom: 50px;
+    font-size: 1.5vw;
+    font-weight: bolder;
 }
 header > p >a:hover{
     text-decoration: underline;
@@ -63,10 +66,12 @@ header > img{
     margin: auto;
 }
 section{
-    padding-top: 8vh;
-    padding-bottom: 8vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
     font-family: var(--font3);
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
 section > p{
     padding: 2em;
